@@ -1,4 +1,12 @@
-public class AccessModifiers {
+abstract class AccessModifiers {
+
+    public String fname = "Sara Horvat";
+    public int age = 26;
+
+    public abstract void study(); // THIS is the abstract method
+
+
+
 
     /*
 The 'public' keyword is an access modifier, meaning that it is used to set the access level for classes, attributes,
@@ -34,9 +42,6 @@ methods and constructors. We divide modifiers into two groups:
                     The body is provided by the subclass (inherited from).
     transient       Attributes and methods are skipped when serializing the object containing them
     synchronized    Methods can only be accessed by one thread at a time
-    volatile        The value of an attribute is not cached thread-locally, and is always read from the "main memory"
-
-
-     */
+    volatile        The value of an attribute is not cached thread-locally, and is always read from the "main memory"*/
 
 }
