@@ -7,6 +7,8 @@ public class Main {
         System.out.println(myObj.name); */ // > this won't work, of course, since the String is declared private in the other class
         // we have to use getter and setter instead to access the variable / method
 
+        // class connected to GetAndSet.java
+
         GetAndSet myObj = new GetAndSet();
         myObj.setName("Name of Object was changed to Johnny.");
         myObj.getName();
