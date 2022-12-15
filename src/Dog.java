@@ -1,6 +1,6 @@
-class Dog extends Animal {
+class Dog extends Animal{
 
-    public void animalSound() {
-        System.out.println("The dog says 'woof woof'.");
+    public void DogSounds (){
+        System.out.println("The dog goes \"woof woof\".");
     }
 }

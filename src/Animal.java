@@ -1,6 +1,6 @@
 class Animal {
 
-    public void animalSound () {
-        System.out.println("The animal makes a sound.");
+    public void animalSounds () {
+        System.out.println("Each animal makes a specific sound. For example.. ");
     }
 }

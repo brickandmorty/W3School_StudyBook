@@ -3,13 +3,12 @@ class MainForAnimal {
     public static void main(String[] args) {
 
         Animal randomAnimal = new Animal();
-        randomAnimal.animalSound();
+        randomAnimal.animalSounds();
 
-        Animal randomPig = new Pig();
-        randomPig.animalSound();
+        Pig randomPig = new Pig();
+        randomPig.PigSounds();
 
-        Animal randomDog = new Dog();
-        randomDog.animalSound();
-
+        Dog randomDog = new Dog();
+        randomDog.DogSounds();
     }
 }
